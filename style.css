@@ -1,0 +1,264 @@
+body
+{
+    background-color: #303952;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: rgb(90, 5, 5);
+    opacity: 1000;
+    
+    
+}
+
+
+
+
+
+
+#main-header
+{
+    background-color: rgba(223, 226, 24, 0.6);
+    color: rgb(9, 1, 14);
+    text-align: center;
+    border-style: solid;
+    height: 75px;
+    /*border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;*/
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 90.1%;
+    height: auto;
+    
+    /*opacity: 0.6;*/
+}
+
+
+#navbar
+{
+    background-color: #303952;
+    color: white;
+    
+    
+}
+
+#navbar ul
+{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    
+}
+
+#navbar li
+{
+    display: inline;
+    padding: 5px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } 
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+#navbar 
+{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+#navbar a
+{
+    font-style: bold;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar a:hover
+{
+    color: rgb(0, 255, 145);
+    
+}
+
+#showcase
+{
+    background-image: url(https://miro.medium.com/max/1400/1*VzGCIu8GgiFnuh37aJvJZg.gif);
+    background-size: 100% 100%;
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+
+    margin-bottom: 30px;
+    padding-top: 20px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#showcase h3
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 400px;
+}
+
+#main
+{
+    float:left;
+    width: 43%;
+    /*height: 250px;*/
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #3498db;
+    color: rgba(0, 0, 0);
+    border-style: solid;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: left;
+    opacity: 0.6;
+}
+
+#sidebar
+{
+    float: right;
+    width: 42%;
+    /*height: 250px;*/
+    /*background-color: rgba(0, 102, 111, 0.6);*/
+    background-color: #e74c3c;
+    padding: 30px;
+    
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-style: solid;
+    
+    margin-right: 5%;
+    text-align: left;
+
+    opacity: 0.6;
+}
+#main-footer a
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    
+}
+blink {
+    animation: 1s linear infinite condemned_blink_effect;
+  }
+  
+  @keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+#main-footer
+{
+    background-color: #27ae60;
+    
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+
+    clear: both;
+    position: relative;
+    /*height: 50px;*/
+
+    margin-top: -10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+
+    border-radius: 25px;
+
+    /*opacity: 0.6;*/
+}
+#main-footer:hover
+{
+    color: rgb(0, 0, 0);
+    background-color: rgba(223, 226, 24, 0.6);
+    border-radius: 25px;
+}
+#main-footer a
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+
+
+@media(max-width:1000px)
+{
+    #main, #sidebar
+    {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        width: 90%;
+        float: none;
+
+    }
+}
+
+@media(max-width:700px)
+{
+    #navbar li
+    {
+        border-style: solid;
+        background-color: rgba(0, 199, 140, .6); 
+        color: rgb(255, 255, 255, .6);
+        display: block;
+        border-radius: 25px;
+        padding: 10px;
+    }   
+}
+
+#Aroba {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+
+    clear: both;
+    position: relative;
+    height: 50px;
+    margin-top: -10px;
+}
